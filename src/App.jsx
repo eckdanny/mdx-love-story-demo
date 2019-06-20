@@ -1,8 +1,8 @@
 import React from 'react'
-import GettingStarted from './getting-started'
+import Basics from './basics'
 
 const App = () => {
-  return <GettingStarted />
+  return <Basics />
 }
 
 export default App

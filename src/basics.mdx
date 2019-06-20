@@ -1,0 +1,58 @@
+## Basics
+
+This is another markdown file
+
+### Some Markdown Features...
+
+Formatting _italic_ or **bold** text (or **_both_**) is a snap. Inline elements like `pre` and [links]() is easy. Headings you've seen already.
+
+What about lists?
+
+- unordered
+- list
+- items
+
+or
+
+1. ordered
+1. list
+1. items
+
+if you please.
+
+Here's a `blockquote`
+
+> Great minds discuss ideas; average minds discuss events; small minds discuss people.
+
+Tables work too:
+
+| model          | mpg  | cyl | disp | hp  | drat | wt    | qsec  | vs  | am  | gear | carb |
+| :------------- | :--- | :-- | :--- | :-- | :--- | :---- | :---- | :-- | :-- | :--- | :--- |
+| Mazda RX4      | 21   | 6   | 160  | 110 | 3.9  | 2.62  | 16.46 | 0   | 1   | 4    | 4    |
+| Datsun 710     | 22.8 | 4   | 108  | 93  | 3.85 | 2.32  | 18.61 | 1   | 1   | 4    | 1    |
+| Hornet 4 Drive | 21.4 | 6   | 258  | 110 | 3.08 | 3.215 | 19.44 | 1   | 0   | 3    | 1    |
+
+and _code fences_:
+
+```java
+/**
+ * Obtains the filesystem roots
+ * Proceeds with the recursive filesystem traversal
+ */
+private static void traverse () {
+  File [] fs = File.listRoots ();
+  for (int i = 0; i < fs.length; i++) {
+    if (fs[i].isDirectory () && fs[i].canRead ()) {
+      rtraverse (fs[i]);
+    }
+  }
+}
+```
+
+_Oh_ and of course you can sprinkle in HTML. Here's an `img` tag:
+
+<p>
+  <img src="https://mdx-logo.now.sh" alt="MDX logo" height="32" />
+</p>
+
+BUT all this is just plain 'ol markdown!
