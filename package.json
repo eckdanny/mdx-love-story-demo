@@ -9,13 +9,21 @@
     "start": "parcel src/index.html"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "babel-plugin-macros": "^2.6.1",
+    "clsx": "^1.0.4",
+    "prism-react-renderer": "^0.1.6",
+    "raw.macro": "^0.3.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "@mdx-js/parcel-plugin-mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.0-rc.5",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2"
   }
