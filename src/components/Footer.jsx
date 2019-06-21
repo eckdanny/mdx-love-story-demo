@@ -12,6 +12,9 @@ const Footer = props => {
           <a target="_blank" href="http://bit.ly/love-mdx">
             Love MDX
           </a>
+          , this project is on{' '}
+          <a href="https://github.com/eckdanny/mdx-love-story-demo">GitHub</a>,
+          and a live site is <a href="https://bit.ly/love-mdx-demo">here</a>.
         </span>
       </div>
     </footer>
