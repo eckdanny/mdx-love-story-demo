@@ -6,4 +6,5 @@ export default {
   table: Table,
   pre: props => <div {...props} />,
   code: CodeBlock,
+  wrapper: ({ children }) => <div children={children} />,
 }
