@@ -3,6 +3,7 @@ import { Router } from '@reach/router'
 import GettingStarted from './getting-started'
 import Basics from './basics'
 import Composing from './composing/composing'
+import WritingDocs from './docs/writing-docs'
 
 const staticRoutes = [
   {
@@ -19,6 +20,11 @@ const staticRoutes = [
     path: '/composing',
     name: 'Composing',
     component: Composing,
+  },
+  {
+    path: '/writing-docs',
+    name: 'Writing Docs',
+    component: WritingDocs,
   },
 ]
 
