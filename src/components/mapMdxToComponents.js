@@ -1,7 +1,9 @@
 import React from 'react'
 import Table from './Table'
+import CodeBlock from './CodeBlock'
 
 export default {
-  ul: () => <div style={{ backgroundColor: 'red' }}>NO Unordered Lists!</div>,
   table: Table,
+  pre: props => <div {...props} />,
+  code: CodeBlock,
 }

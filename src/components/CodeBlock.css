@@ -1,0 +1,6 @@
+pre.prism-code {
+  margin-top: 1rem;
+}
+pre.prism-code > .token-line:last-child {
+  display: none;
+}
