@@ -2,6 +2,7 @@ import React, { createContext, useContext } from 'react'
 import { Router } from '@reach/router'
 import GettingStarted from './getting-started'
 import Basics from './basics'
+import Composing from './composing/composing'
 
 const staticRoutes = [
   {
@@ -13,6 +14,11 @@ const staticRoutes = [
     path: '/basics',
     name: 'Basics',
     component: Basics,
+  },
+  {
+    path: '/composing',
+    name: 'Composing',
+    component: Composing,
   },
 ]
 
