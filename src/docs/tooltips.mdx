@@ -1,0 +1,17 @@
+import raw from 'raw.macro'
+import Example from '../components/ExampleLayout'
+import CodeBlock from '../components/CodeBlock'
+import TooltipExample from './TooltipExample'
+export default Example
+const TooltipExampleSrc = raw('./TooltipExample.jsx')
+
+Motivation: [`reactstrap#tooltips`](https://reactstrap.github.io/components/tooltips/)
+
+Source: [`GitHub`](https://github.com/reactstrap/reactstrap/blob/b9f34c308d2b0d17a0fd8f346e610c3e2eaad469/docs/lib/Components/TooltipsPage.js#L15-L137)
+
+<details>
+  <summary>Show Example</summary>
+  <br />
+  <TooltipExample />
+  <CodeBlock lang="jsx" children={TooltipExampleSrc} />
+</details>

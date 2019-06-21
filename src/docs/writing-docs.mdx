@@ -1,4 +1,5 @@
 import SimpleUseCase from './simple-use-case'
+import Tooltips from './tooltips'
 
 ## Writing Docs
 
@@ -9,3 +10,9 @@ MDX is a great choice for composing documentation!
 Demonstrating the UI visually _and_ providing copy-and-paste examples has many advantages.
 
 <SimpleUseCase />
+
+### Tooltip Example
+
+In previous example, it will be easy enough to keep the _source_ and _UI_ consistent because the example is trivial _and_ they are co-located on the filesystem. For non-trivial examples, consider using a `babel-macro` or other `raw-loader` methods to _import_ them both, ensuring they stay in sync.
+
+<Tooltips />
