@@ -1,4 +1,8 @@
 {
     "editor.formatOnSave": true,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "files.exclude": {
+        "**/.cache": true,
+        "**/dist": true
+    }
 }
