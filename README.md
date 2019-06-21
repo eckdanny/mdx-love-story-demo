@@ -3,16 +3,21 @@
 A demo project to augment [presentation slides](bit.ly/love-mdx)
 
 <p align="center">
-    <img alt="Parcel" src="https://user-images.githubusercontent.com/3521444/59939259-3ae33d00-940c-11e9-82d6-0835a1d87a4f.gif" width="749">
+  <img alt="Parcel" src="https://user-images.githubusercontent.com/3521444/59939259-3ae33d00-940c-11e9-82d6-0835a1d87a4f.gif" width="540">
 </p>
+
+## About
+
+This is a _demo project_ to illustrate some of the cool features of `mdx`. I'm talking about [in a slide deck](https://bit.ly/love-mdx).
 
 ## Play Along
 
-I'm planning to jump to the `start` (a git tag) position, and walk forward in version control history, explaining as I go.
+If you want to _sing-a-long_ clone the repo and checkout `start` (git tag). From here you can walk forward in version control to see how it comes together.
 
 ```sh
-git checkout start
-yarn start
+git clone https://github.com/eckdanny/mdx-love-story-demo && cd $_
+yarn
+git checkout start && yarn start
 ```
 
-Probably have a GUI open to conveniently walk the commit history.
+_Enjoy!_
